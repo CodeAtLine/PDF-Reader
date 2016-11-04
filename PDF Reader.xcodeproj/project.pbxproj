@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18360B8F1DBA24C500CE2105 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18360B8E1DBA24C500CE2105 /* PDFViewController.swift */; };
+		18360B9A1DBA2ABE00CE2105 /* HelpPlanetEarth.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18360B951DBA2ABE00CE2105 /* HelpPlanetEarth.pdf */; };
+		18360B9B1DBA2ABE00CE2105 /* National Geographic Kids.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18360B961DBA2ABE00CE2105 /* National Geographic Kids.pdf */; };
+		18360B9C1DBA2ABE00CE2105 /* OurSolarSystem2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18360B971DBA2ABE00CE2105 /* OurSolarSystem2.pdf */; };
+		18360B9D1DBA2ABE00CE2105 /* TheNaturalChoice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18360B981DBA2ABE00CE2105 /* TheNaturalChoice.pdf */; };
+		18360B9E1DBA2ABE00CE2105 /* ThreatsReport.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18360B991DBA2ABE00CE2105 /* ThreatsReport.pdf */; };
 		186159C11D953B3F001E64E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186159C01D953B3F001E64E3 /* AppDelegate.swift */; };
-		186159C31D953B3F001E64E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186159C21D953B3F001E64E3 /* ViewController.swift */; };
 		186159C61D953B3F001E64E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186159C41D953B3F001E64E3 /* Main.storyboard */; };
 		186159C81D953B3F001E64E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186159C71D953B3F001E64E3 /* Assets.xcassets */; };
 		186159CB1D953B3F001E64E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186159C91D953B3F001E64E3 /* LaunchScreen.storyboard */; };
+		186159D51D954693001E64E3 /* PDFPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186159D41D954693001E64E3 /* PDFPageViewController.swift */; };
+		18E5690B1DB8EFAA00D58314 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E5690A1DB8EFAA00D58314 /* icon.png */; };
+		18E5690D1DB8F03F00D58314 /* PDFListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18360B8E1DBA24C500CE2105 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		18360B951DBA2ABE00CE2105 /* HelpPlanetEarth.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HelpPlanetEarth.pdf; sourceTree = "<group>"; };
+		18360B961DBA2ABE00CE2105 /* National Geographic Kids.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "National Geographic Kids.pdf"; sourceTree = "<group>"; };
+		18360B971DBA2ABE00CE2105 /* OurSolarSystem2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = OurSolarSystem2.pdf; sourceTree = "<group>"; };
+		18360B981DBA2ABE00CE2105 /* TheNaturalChoice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TheNaturalChoice.pdf; sourceTree = "<group>"; };
+		18360B991DBA2ABE00CE2105 /* ThreatsReport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ThreatsReport.pdf; sourceTree = "<group>"; };
 		186159BD1D953B3F001E64E3 /* PDF Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186159C01D953B3F001E64E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		186159C21D953B3F001E64E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		186159C51D953B3F001E64E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		186159C71D953B3F001E64E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186159CA1D953B3F001E64E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186159CC1D953B3F001E64E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186159D41D954693001E64E3 /* PDFPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageViewController.swift; sourceTree = "<group>"; };
+		18E5690A1DB8EFAA00D58314 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18360B941DBA2ABE00CE2105 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				18360B951DBA2ABE00CE2105 /* HelpPlanetEarth.pdf */,
+				18360B961DBA2ABE00CE2105 /* National Geographic Kids.pdf */,
+				18360B971DBA2ABE00CE2105 /* OurSolarSystem2.pdf */,
+				18360B981DBA2ABE00CE2105 /* TheNaturalChoice.pdf */,
+				18360B991DBA2ABE00CE2105 /* ThreatsReport.pdf */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
 		186159B41D953B3F001E64E3 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +82,16 @@
 		186159BF1D953B3F001E64E3 /* PDF Reader */ = {
 			isa = PBXGroup;
 			children = (
+				18360B941DBA2ABE00CE2105 /* PDF */,
+				18E5690A1DB8EFAA00D58314 /* icon.png */,
 				186159C01D953B3F001E64E3 /* AppDelegate.swift */,
-				186159C21D953B3F001E64E3 /* ViewController.swift */,
 				186159C41D953B3F001E64E3 /* Main.storyboard */,
 				186159C71D953B3F001E64E3 /* Assets.xcassets */,
 				186159C91D953B3F001E64E3 /* LaunchScreen.storyboard */,
 				186159CC1D953B3F001E64E3 /* Info.plist */,
+				186159D41D954693001E64E3 /* PDFPageViewController.swift */,
+				18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */,
+				18360B8E1DBA24C500CE2105 /* PDFViewController.swift */,
 			);
 			path = "PDF Reader";
 			sourceTree = "<group>";
@@ -96,6 +128,7 @@
 				TargetAttributes = {
 					186159BC1D953B3F001E64E3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J69LMRCB9C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18360B9B1DBA2ABE00CE2105 /* National Geographic Kids.pdf in Resources */,
+				18E5690B1DB8EFAA00D58314 /* icon.png in Resources */,
+				18360B9A1DBA2ABE00CE2105 /* HelpPlanetEarth.pdf in Resources */,
 				186159CB1D953B3F001E64E3 /* LaunchScreen.storyboard in Resources */,
+				18360B9E1DBA2ABE00CE2105 /* ThreatsReport.pdf in Resources */,
 				186159C81D953B3F001E64E3 /* Assets.xcassets in Resources */,
 				186159C61D953B3F001E64E3 /* Main.storyboard in Resources */,
+				18360B9C1DBA2ABE00CE2105 /* OurSolarSystem2.pdf in Resources */,
+				18360B9D1DBA2ABE00CE2105 /* TheNaturalChoice.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186159C31D953B3F001E64E3 /* ViewController.swift in Sources */,
+				186159D51D954693001E64E3 /* PDFPageViewController.swift in Sources */,
+				18E5690D1DB8F03F00D58314 /* PDFListViewController.swift in Sources */,
 				186159C11D953B3F001E64E3 /* AppDelegate.swift in Sources */,
+				18360B8F1DBA24C500CE2105 /* PDFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +301,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J69LMRCB9C;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ILI.PDF-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crdave-test.www";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +315,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J69LMRCB9C;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ILI.PDF-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crdave-test.www";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +344,7 @@
 				186159D11D953B3F001E64E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
