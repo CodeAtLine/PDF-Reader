@@ -6,7 +6,6 @@
 //  Copyright © 2016 ILearniOS. All rights reserved.
 //
 
-
 import UIKit
 
 class PDFPageView: UIView
@@ -50,11 +49,12 @@ class PDFPageView: UIView
     }
 }
 
-class PDFPageViewController: UIViewController
+class PDFPageViewController: UIViewController, UIScrollViewDelegate
 {
     var PDFDocument:CGPDFDocument? = nil
     var pageNumber:Int? = nil;
-    var page:PDFPageView? = nil;
+
+    @IBOutlet weak var page: PDFPageView!
     
     override func viewDidLoad()
     {
@@ -65,13 +65,14 @@ class PDFPageViewController: UIViewController
     
     func preparePDFPage()
     {
-        page = PDFPageView(frame: self.view.bounds)
+        page.PDFDocument = self.PDFDocument
+        page.pageNumber  = self.pageNumber
         
-        page?.PDFDocument = self.PDFDocument
-        page?.pageNumber  = self.pageNumber
-        
-        self.view.addSubview(page!)
-        
-        page?.setNeedsDisplay()
+        page.setNeedsDisplay()
+    }
+    
+    func viewForZooming(in scrollView: UIScrollView) -> UIView?
+    {
+        return page
     }
 }

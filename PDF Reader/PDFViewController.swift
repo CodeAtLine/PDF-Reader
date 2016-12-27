@@ -8,7 +8,11 @@
 
 import UIKit
 
-class PDFViewController: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate
+class PDFViewController: UIViewController,
+    UIPageViewControllerDataSource,
+    UIPageViewControllerDelegate,
+    URLSessionDelegate,
+    URLSessionDownloadDelegate
 {
     var localPDFURL:URL?
     var remotePDFURL:URL?
@@ -16,6 +20,8 @@ class PDFViewController: UIViewController, UIPageViewControllerDataSource, UIPag
     
     var pageController: UIPageViewController!
     var controllers = [UIViewController]()
+    
+    @IBOutlet weak var progressView: UIProgressView!
     
     override func viewDidLoad()
     {
@@ -29,23 +35,31 @@ class PDFViewController: UIViewController, UIPageViewControllerDataSource, UIPag
         {
             self.loadLocalPDF()
         }
-        
-        self.preparePageViewController()
     }
     
     func loadLocalPDF()
     {
+        progressView.isHidden = true;
+        
         let PDFAsData = NSData(contentsOf: localPDFURL!)
         let dataProvider = CGDataProvider(data: PDFAsData!)
         
         self.PDFDocument = CGPDFDocument(dataProvider!)
         
         self.navigationItem.title = localPDFURL?.deletingPathExtension().lastPathComponent
+        
+        self.preparePageViewController()
     }
     
     func loadRemotePDF()
     {
+        progressView.setProgress(0, animated: false)
         
+        let sessionConfiguration = URLSessionConfiguration.default
+        let session = URLSession(configuration: sessionConfiguration, delegate: self, delegateQueue: nil)
+        let downloadTask = session.downloadTask(with: remotePDFURL!)
+        
+        downloadTask.resume()
     }
     
     func preparePageViewController()
@@ -96,5 +110,32 @@ class PDFViewController: UIViewController, UIPageViewControllerDataSource, UIPag
         previousPageVC.pageNumber  = pageVC.pageNumber! + 1
         
         return previousPageVC
+    }
+    
+    func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL)
+    {
+        self.localPDFURL = location
+        
+        self.loadLocalPDF()
+        
+//        DispatchQueue.main.async
+//        {
+//            
+//        }
+    }
+    
+    func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didWriteData bytesWritten: Int64, totalBytesWritten: Int64, totalBytesExpectedToWrite: Int64)
+    {
+        let progress = Float(totalBytesWritten) / Float(totalBytesExpectedToWrite)
+        
+        DispatchQueue.main.async
+        {
+            self.progressView.setProgress(progress, animated: true)
+        }
+    }
+    
+    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?)
+    {
+        dump(error)
     }
 }

@@ -38,9 +38,9 @@ class PDFListViewController: UITableViewController
         localPDFURLs.append(Bundle.main.url(forResource: "OurSolarSystem2", withExtension: "pdf")!)
         localPDFURLs.append(Bundle.main.url(forResource: "ThreatsReport", withExtension: "pdf")!)
         
-        remotePDFURLs.append(URL(string: "https://www.symantec.com/content/dam/symantec/docs/reports/istr-21-2016-en.pdf")!)
-        remotePDFURLs.append(URL(string: "http://www.oreilly.com/programming/free/files/2016-european-software-development-salary-survey.pdf")!)
-        remotePDFURLs.append(URL(string: "https://www.nasa.gov/pdf/363296main_Space_Thrills_Poster_Back.pdf")!)
+        remotePDFURLs.append(URL(string: "https://www.dropbox.com/s/9a109u034fo5khh/InternetSecurityThreatReport.pdf?dl=1")!)
+        remotePDFURLs.append(URL(string: "https://www.dropbox.com/s/v033oek7w7c3vmd/OurSolarSystem.pdf?dl=1")!)
+        remotePDFURLs.append(URL(string: "https://www.dropbox.com/s/r337a14qt97m38y/SalarySurvey2016.pdf?dl=1")!)
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)

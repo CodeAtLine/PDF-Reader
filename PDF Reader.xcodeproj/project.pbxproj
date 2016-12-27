@@ -18,6 +18,7 @@
 		186159C81D953B3F001E64E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186159C71D953B3F001E64E3 /* Assets.xcassets */; };
 		186159CB1D953B3F001E64E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186159C91D953B3F001E64E3 /* LaunchScreen.storyboard */; };
 		186159D51D954693001E64E3 /* PDFPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186159D41D954693001E64E3 /* PDFPageViewController.swift */; };
+		18B5AF4C1E10EDC300571480 /* pdf-logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5AF4B1E10EDC300571480 /* pdf-logo@3x.png */; };
 		18E5690B1DB8EFAA00D58314 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E5690A1DB8EFAA00D58314 /* icon.png */; };
 		18E5690D1DB8F03F00D58314 /* PDFListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		186159CA1D953B3F001E64E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186159CC1D953B3F001E64E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186159D41D954693001E64E3 /* PDFPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageViewController.swift; sourceTree = "<group>"; };
+		18B5AF4B1E10EDC300571480 /* pdf-logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf-logo@3x.png"; sourceTree = "<group>"; };
 		18E5690A1DB8EFAA00D58314 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 			children = (
 				18360B941DBA2ABE00CE2105 /* PDF */,
 				18E5690A1DB8EFAA00D58314 /* icon.png */,
+				18B5AF4B1E10EDC300571480 /* pdf-logo@3x.png */,
 				186159C01D953B3F001E64E3 /* AppDelegate.swift */,
 				186159C41D953B3F001E64E3 /* Main.storyboard */,
 				186159C71D953B3F001E64E3 /* Assets.xcassets */,
@@ -128,7 +131,7 @@
 				TargetAttributes = {
 					186159BC1D953B3F001E64E3 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = J69LMRCB9C;
+						DevelopmentTeam = 2B38LY5NSL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -161,6 +164,7 @@
 				18360B9A1DBA2ABE00CE2105 /* HelpPlanetEarth.pdf in Resources */,
 				186159CB1D953B3F001E64E3 /* LaunchScreen.storyboard in Resources */,
 				18360B9E1DBA2ABE00CE2105 /* ThreatsReport.pdf in Resources */,
+				18B5AF4C1E10EDC300571480 /* pdf-logo@3x.png in Resources */,
 				186159C81D953B3F001E64E3 /* Assets.xcassets in Resources */,
 				186159C61D953B3F001E64E3 /* Main.storyboard in Resources */,
 				18360B9C1DBA2ABE00CE2105 /* OurSolarSystem2.pdf in Resources */,
@@ -302,12 +306,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = J69LMRCB9C;
+				DEVELOPMENT_TEAM = 2B38LY5NSL;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crdave-test.www";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appex.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,12 +321,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = J69LMRCB9C;
+				DEVELOPMENT_TEAM = 2B38LY5NSL;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crdave-test.www";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appex.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
