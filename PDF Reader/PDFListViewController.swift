@@ -10,7 +10,6 @@
  Resource to render PDFs
  https://developer.apple.com/library/content/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/dq_pdf/dq_pdf.html
  https://www.cocoanetics.com/2010/06/rendering-pdf-is-easier-than-you-thought/
-
  https://www.symantec.com/content/dam/symantec/docs/reports/istr-21-2016-en.pdf
  https://www.nasa.gov/pdf/363296main_Space_Thrills_Poster_Back.pdf
  https://solarsystem.nasa.gov/docs/000-SolarSystemLithosCombined_Rev1_FC.pdf

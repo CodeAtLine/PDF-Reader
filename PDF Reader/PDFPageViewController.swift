@@ -20,6 +20,7 @@ class PDFPageView: UIView
             let ctx = UIGraphicsGetCurrentContext()
             
             UIColor.white.set()
+            
             ctx?.fill(rect)
 
             _ = ctx?.ctm

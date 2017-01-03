@@ -92,9 +92,9 @@
 				186159C71D953B3F001E64E3 /* Assets.xcassets */,
 				186159C91D953B3F001E64E3 /* LaunchScreen.storyboard */,
 				186159CC1D953B3F001E64E3 /* Info.plist */,
-				186159D41D954693001E64E3 /* PDFPageViewController.swift */,
 				18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */,
 				18360B8E1DBA24C500CE2105 /* PDFViewController.swift */,
+				186159D41D954693001E64E3 /* PDFPageViewController.swift */,
 			);
 			path = "PDF Reader";
 			sourceTree = "<group>";
@@ -308,6 +308,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2B38LY5NSL;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appex.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -323,6 +324,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2B38LY5NSL;
 				INFOPLIST_FILE = "PDF Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appex.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
