@@ -19,7 +19,6 @@
 		186159CB1D953B3F001E64E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186159C91D953B3F001E64E3 /* LaunchScreen.storyboard */; };
 		186159D51D954693001E64E3 /* PDFPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186159D41D954693001E64E3 /* PDFPageViewController.swift */; };
 		18B5AF4C1E10EDC300571480 /* pdf-logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B5AF4B1E10EDC300571480 /* pdf-logo@3x.png */; };
-		18E5690B1DB8EFAA00D58314 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E5690A1DB8EFAA00D58314 /* icon.png */; };
 		18E5690D1DB8F03F00D58314 /* PDFListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		186159CC1D953B3F001E64E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186159D41D954693001E64E3 /* PDFPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPageViewController.swift; sourceTree = "<group>"; };
 		18B5AF4B1E10EDC300571480 /* pdf-logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf-logo@3x.png"; sourceTree = "<group>"; };
-		18E5690A1DB8EFAA00D58314 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		18E5690C1DB8F03F00D58314 /* PDFListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				18360B941DBA2ABE00CE2105 /* PDF */,
-				18E5690A1DB8EFAA00D58314 /* icon.png */,
 				18B5AF4B1E10EDC300571480 /* pdf-logo@3x.png */,
 				186159C01D953B3F001E64E3 /* AppDelegate.swift */,
 				186159C41D953B3F001E64E3 /* Main.storyboard */,
@@ -160,7 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18360B9B1DBA2ABE00CE2105 /* National Geographic Kids.pdf in Resources */,
-				18E5690B1DB8EFAA00D58314 /* icon.png in Resources */,
 				18360B9A1DBA2ABE00CE2105 /* HelpPlanetEarth.pdf in Resources */,
 				186159CB1D953B3F001E64E3 /* LaunchScreen.storyboard in Resources */,
 				18360B9E1DBA2ABE00CE2105 /* ThreatsReport.pdf in Resources */,
